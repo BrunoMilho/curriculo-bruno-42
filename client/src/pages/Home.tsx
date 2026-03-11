@@ -23,28 +23,8 @@ export default function Home() {
   const resumeRef = useRef<HTMLDivElement>(null);
   const data = resumeData as ResumeData;
 
-  const handleDownloadPDF = async () => {
-    try {
-      const element = resumeRef.current;
-      if (!element) return;
-
-      // Dynamic import to avoid bundle bloat
-      const html2pdf = (await import("html2pdf.js")) as any;
-      const converter = html2pdf.default || html2pdf;
-
-      const options = {
-        margin: 10,
-        filename: `Curriculo_Bruno_Silva_de_Souza.pdf`,
-        image: { type: "png", quality: 0.98 },
-        html2canvas: { scale: 2 },
-        jsPDF: { orientation: "portrait", unit: "mm", format: "a4" },
-      } as any;
-
-      converter().set(options).from(element).save();
-    } catch (error) {
-      console.error("Erro ao gerar PDF:", error);
-      alert("Erro ao gerar PDF. Por favor, tente novamente.");
-    }
+  const handleDownloadPDF = () => {
+    window.print();
   };
 
   return (

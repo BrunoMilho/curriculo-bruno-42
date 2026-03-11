@@ -215,10 +215,15 @@ export default function Home() {
       {/* Print Styles */}
       <style>{`
         @media print {
+          @page {
+            margin: 8mm;
+          }
           body {
             background: white;
             padding: 0;
             margin: 0;
+            font-size: 13px !important;
+            line-height: 1.3 !important;
           }
           .max-w-4xl {
             max-width: 100%;
@@ -228,7 +233,39 @@ export default function Home() {
           }
           .resume-section {
             page-break-inside: avoid;
+            margin-bottom: 0.5rem !important;
           }
+          .resume-section h2 {
+            margin-bottom: 0.25rem !important;
+            font-size: 1.25rem !important;
+          }
+          .resume-header {
+            padding-top: 1rem !important;
+            padding-bottom: 1rem !important;
+          }
+          .resume-header img {
+            width: 5.5rem !important;
+            height: 5.5rem !important;
+          }
+          .resume-header h1 {
+            font-size: 2rem !important;
+            margin-bottom: 0 !important;
+          }
+          .resume-title {
+            font-size: 1rem !important;
+            margin-bottom: 0.5rem !important;
+          }
+          /* Force compress generic spacing utility classes on print */
+          .py-8 { padding-top: 0.5rem !important; padding-bottom: 0.5rem !important; }
+          .pt-8 { padding-top: 0.25rem !important; }
+          .mt-8 { margin-top: 0.25rem !important; }
+          .mb-6 { margin-bottom: 0.5rem !important; }
+          .mb-4 { margin-bottom: 0.25rem !important; }
+          .gap-8 { gap: 1rem !important; }
+          .space-y-6 > :not([hidden]) ~ :not([hidden]) { margin-top: 0.5rem !important; }
+          .space-y-4 > :not([hidden]) ~ :not([hidden]) { margin-top: 0.25rem !important; }
+          .space-y-2 > :not([hidden]) ~ :not([hidden]) { margin-top: 0.15rem !important; }
+          .p-4 { padding: 0.5rem !important; }
         }
       `}</style>
     </div>

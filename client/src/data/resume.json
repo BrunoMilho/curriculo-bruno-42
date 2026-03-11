@@ -1,0 +1,77 @@
+{
+  "personal": {
+    "name": "Bruno Silva de Souza",
+    "email": "bruno.tuvi@gmail.com",
+    "phone": "17 98190 1671",
+    "location": "Fronteira, MG",
+    "title": "Psicoterapeuta | Desenvolvimento de Pessoas | Liderança",
+    "photo": "https://d2xsxph8kpxj0f.cloudfront.net/310419663029219463/cGxwAqtwYCJGA9Jq5Dmnzr/Designsemnome(1)_e5dca848.png"
+  },
+  "summary": "Profissional com mais de 20 anos de experiência em desenvolvimento humano, liderança e transformação organizacional. Especializado em psicoterapia, gestão de conflitos e desenvolvimento de equipes de alto desempenho. Apaixonado por inovação e aplicação de IA em soluções empresariais.",
+  "experience": [
+    {
+      "period": "2018 - Presente",
+      "title": "Psicoterapeuta | Desenvolvimento de Pessoas | Liderança",
+      "companies": ["Náutico Clube Fronteira", "Unicid - SP", "O Corpo Explica - São José dos Campos, SP"],
+      "highlights": "Desenvolvimento de pessoas, liderança transformacional, gestão de conflitos e coaching executivo"
+    },
+    {
+      "period": "2011 - 2018",
+      "title": "Administrador",
+      "companies": ["Cantina Di Paolo - Frutal, MG"],
+      "highlights": "Gestão operacional, recursos humanos e estratégia comercial"
+    },
+    {
+      "period": "2005 - 2011",
+      "title": "Vendedor",
+      "companies": ["Vendedor de Carros - Goiânia, GO", "Vendedor de Imóveis - Goiânia, GO"],
+      "highlights": "Negociação, relacionamento com clientes e fechamento de vendas"
+    },
+    {
+      "period": "1998 - 2004",
+      "title": "Vendedor de Cerveja",
+      "companies": ["Posto Triângulo - Frutal, MG"],
+      "highlights": "Prospecção de clientes e gestão de contas"
+    }
+  ],
+  "education": [
+    {
+      "level": "Superior Incompleto",
+      "fields": ["Direito", "Administração de Empresas", "Gestão de Pessoas"]
+    }
+  ],
+  "certifications": [
+    "Master Coach",
+    "Master em Desenvolvimento e Treinamentos de Alto Impacto",
+    "Analista Corporal",
+    "Constelador Sistêmico"
+  ],
+  "skills": [
+    "Resolução de Problemas",
+    "Gestão de Conflitos",
+    "Desenvolvimento de Equipes",
+    "Liderança Transformacional",
+    "Coaching Executivo",
+    "Comunicação Efetiva",
+    "Inteligência Emocional"
+  ],
+  "projects": [
+    {
+      "name": "Náutico Gerador de Contratos",
+      "url": "https://nauticogeradordecontratos.vercel.app/",
+      "description": "Plataforma de geração de contratos"
+    },
+    {
+      "name": "NaRisca",
+      "url": "https://narisca-landing.vercel.app/",
+      "description": "Gestão Gamificada"
+    }
+  ],
+  "footer": {
+    "location": "Fronteira",
+    "date": "11 de março de 2026"
+  },
+  "training": {
+    "current": "Academia Lendária - Especialização em AIOX aplicado em soluções rotineiras empresariais usando IA"
+  }
+}

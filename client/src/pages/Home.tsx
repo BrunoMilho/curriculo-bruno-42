@@ -216,14 +216,14 @@ export default function Home() {
       <style>{`
         @media print {
           @page {
-            margin: 8mm;
+            margin: 5mm;
           }
           body {
             background: white;
             padding: 0;
             margin: 0;
-            font-size: 13px !important;
-            line-height: 1.3 !important;
+            font-size: 11px !important;
+            line-height: 1.2 !important;
           }
           .max-w-4xl {
             max-width: 100%;
@@ -233,39 +233,46 @@ export default function Home() {
           }
           .resume-section {
             page-break-inside: avoid;
-            margin-bottom: 0.5rem !important;
+            margin-bottom: 0.25rem !important;
           }
           .resume-section h2 {
-            margin-bottom: 0.25rem !important;
-            font-size: 1.25rem !important;
+            margin-bottom: 0.15rem !important;
+            font-size: 1.1rem !important;
           }
           .resume-header {
-            padding-top: 1rem !important;
-            padding-bottom: 1rem !important;
+            padding-top: 0.5rem !important;
+            padding-bottom: 0.5rem !important;
           }
           .resume-header img {
-            width: 5.5rem !important;
-            height: 5.5rem !important;
+            width: 4rem !important;
+            height: 4rem !important;
           }
           .resume-header h1 {
-            font-size: 2rem !important;
+            font-size: 1.5rem !important;
             margin-bottom: 0 !important;
           }
           .resume-title {
-            font-size: 1rem !important;
-            margin-bottom: 0.5rem !important;
+            font-size: 0.9rem !important;
+            margin-bottom: 0.25rem !important;
           }
           /* Force compress generic spacing utility classes on print */
-          .py-8 { padding-top: 0.5rem !important; padding-bottom: 0.5rem !important; }
-          .pt-8 { padding-top: 0.25rem !important; }
-          .mt-8 { margin-top: 0.25rem !important; }
-          .mb-6 { margin-bottom: 0.5rem !important; }
-          .mb-4 { margin-bottom: 0.25rem !important; }
-          .gap-8 { gap: 1rem !important; }
-          .space-y-6 > :not([hidden]) ~ :not([hidden]) { margin-top: 0.5rem !important; }
-          .space-y-4 > :not([hidden]) ~ :not([hidden]) { margin-top: 0.25rem !important; }
-          .space-y-2 > :not([hidden]) ~ :not([hidden]) { margin-top: 0.15rem !important; }
-          .p-4 { padding: 0.5rem !important; }
+          .py-8 { padding-top: 0.25rem !important; padding-bottom: 0.25rem !important; }
+          .px-8 { padding-left: 0.5rem !important; padding-right: 0.5rem !important; }
+          .md\\:px-12 { padding-left: 0.5rem !important; padding-right: 0.5rem !important; }
+          .pt-8 { padding-top: 0.15rem !important; }
+          .mt-8 { margin-top: 0.15rem !important; border-top-width: 1px !important; }
+          .mb-6 { margin-bottom: 0.25rem !important; }
+          .mb-4 { margin-bottom: 0.15rem !important; }
+          .mb-2 { margin-bottom: 0.1rem !important; }
+          .gap-8 { gap: 0.5rem !important; }
+          .gap-2 { gap: 0.25rem !important; }
+          .space-y-6 > :not([hidden]) ~ :not([hidden]) { margin-top: 0.25rem !important; }
+          .space-y-4 > :not([hidden]) ~ :not([hidden]) { margin-top: 0.15rem !important; }
+          .space-y-2 > :not([hidden]) ~ :not([hidden]) { margin-top: 0.1rem !important; }
+          .p-4 { padding: 0.25rem !important; }
+          .text-2xl { font-size: 1.1rem !important; }
+          .text-lg { font-size: 0.95rem !important; }
+          .text-sm { font-size: 10px !important; }
         }
       `}</style>
     </div>
